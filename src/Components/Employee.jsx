@@ -4,6 +4,8 @@ import "./Employee.css";
 
 export const Employee = () => {
 
+  const employeeIds = ["z7GIN_i", "vlJtFOU", "t3qV6bu", "xB3uGgZk", "KJ30Pcw"];
+
   const [employees, setEmployees] = useState([]);
 
   function getFeaturedEmployees() {
@@ -23,10 +25,14 @@ export const Employee = () => {
 
   return (
     <article className="employee">
-      <h3>Test {employees.length ? employees[0].firstName : ""}</h3>
-      <h4>Staff Member Title</h4>
+      {
+        
+
+      }
+      <h3>{employees.length ? employees[0].firstName : ""}</h3>
+      <h4>{employees.length ? employees[0].title : ""}</h4>
       <button>Show Pets</button>
-      <PetList />
+      <PetList/>
     </article>
   );
 };
