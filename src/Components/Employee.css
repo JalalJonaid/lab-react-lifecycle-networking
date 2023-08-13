@@ -1,8 +1,11 @@
+
+
 .employee {
   border: 1px solid var(--gold);
   border-radius: 5px;
   padding: 25px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .employee h3 {

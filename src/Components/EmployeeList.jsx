@@ -7,7 +7,7 @@ export const EmployeeList = ({employeeList}) => {
     <main>
       <h2>All Staff</h2>
       <section className="employee-list">
-        <Employee />
+        <Employee/>
       </section>
     </main>
   );
